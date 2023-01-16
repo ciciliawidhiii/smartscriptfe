@@ -10,14 +10,14 @@ export default function Login() {
         <img className='w-full h-full object-cover'src={LoginImg} alt="" /> 
       </div>
 
-      <div className="bg-blue-800 flex flex-col justify-center">
-        <form className="max-w[400px] w-full mx-auto bg-gray-900 p-8 px-8 rounde-lg"> 
+      <div className="bg-blue flex flex-col justify-center">
+        <form className="max-w[400px] w-full mx-auto bg-gray p-8 px-8 rounde-lg"> 
           <h2 className="text-4xl dark:text-white font-bold text-center">Selamat Datang di Pusat Bantuan LPDP!</h2>
-          <div className="flex flex-col text-gray-400 py-2">
+          <div className="flex flex-col text-gray py-2">
             <label>Username</label>
-            <input className= 'rounded-lg bg-gray-700 mt-2 p-2 focus:border-blue-500 focus:bg-gray-800 focus:outline-none' type="text" placeholder='Masukkan username anda'/>
+            <input className= 'rounded-lg bg-gray mt-2 p-2 focus:border-blue focus:bg-gray focus:outline-none' type="text" placeholder='Masukkan username anda'/>
           </div>
-          <div className="flex flex-col text-gray-400 py-2">
+          <div className="flex flex-col text-gray py-2">
             <label>Password</label>
             <input type="password" placeholder='Masukkan password Anda'/>
           </div>
