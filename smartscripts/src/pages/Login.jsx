@@ -10,7 +10,7 @@ export default function Login() {
         <img className='w-full h-full object-cover'src={LoginImg} alt="" /> 
       </div>
 
-      <div className="bg-yellow-800 flex flex-col justify-center">
+      <div className="bg-blue-800 flex flex-col justify-center">
         <form className="max-w[400px] w-full mx-auto bg-gray-900 p-8 px-8 rounde-lg"> 
           <h2 className="text-4xl dark:text-white font-bold text-center">Selamat Datang di Pusat Bantuan LPDP!</h2>
           <div className="flex flex-col text-gray-400 py-2">
